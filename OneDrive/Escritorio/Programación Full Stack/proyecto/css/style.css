@@ -1,0 +1,70 @@
+/*
+////////////////////////////////////////////////////////////
+ESTILOS RESET
+////////////////////////////////////////////////////////////
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li , a {
+    display: inline-block;
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+#body {
+    max-width: 1440px; /*ANCHO MÁXIMO DECLARADO*/
+    margin: 0 auto; /*CENTRADO DE CONTENIDO HORIZONTALMENTE*/
+}
+#main {
+    min-height: 100vh; /*MAIN OCUPANDO SIEMPRE EL 100% DEL VIEWPORT*/
+}
+
+/*
+////////////////////////////////////////////////////////////
+FUENTES ELEGIDAS
+////////////////////////////////////////////////////////////
+*/
+
+@font-face {
+    font-family: 'titulos';
+    src: url(/fonts/Payday.ttf);
+}
+
+#backgroundPrincipal {
+    width: 100%;
+    height: 100vh;
+    margin-top: 4%;
+    background-image: url(../images/BACKGROUND\ INICIO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#texto-Portada{
+    color: white;
+    text-align: center;
+    border: 3px solid #fafafa10;
+    border-radius: 16px;
+    backdrop-filter: blur(0.1rem);
+    margin: 0 5% 5%;
+
+}
+
+#titulo{
+    color: black;
+}
+
+#footer {
+    
+        background-color: #171717; /* Cambia el color de fondo según tus preferencias */
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
